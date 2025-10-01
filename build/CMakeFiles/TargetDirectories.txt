@@ -1,0 +1,14 @@
+Z:/vs_projects/c++/battle_city/build/CMakeFiles/battle_city.dir
+Z:/vs_projects/c++/battle_city/build/CMakeFiles/INSTALL.dir
+Z:/vs_projects/c++/battle_city/build/CMakeFiles/ALL_BUILD.dir
+Z:/vs_projects/c++/battle_city/build/CMakeFiles/ZERO_CHECK.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/CMakeFiles/uninstall.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/CMakeFiles/INSTALL.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/CMakeFiles/ALL_BUILD.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/src/CMakeFiles/glfw.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/src/CMakeFiles/update_mappings.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/src/CMakeFiles/INSTALL.dir
+Z:/vs_projects/c++/battle_city/build/external/glfw/docs/CMakeFiles/INSTALL.dir
+Z:/vs_projects/c++/battle_city/build/external/glad/CMakeFiles/glad.dir
+Z:/vs_projects/c++/battle_city/build/external/glad/CMakeFiles/INSTALL.dir
+Z:/vs_projects/c++/battle_city/build/external/glad/CMakeFiles/ALL_BUILD.dir
