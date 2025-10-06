@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.5 FATAL_ERROR)
+cmake_minimum_required(VERSION 4.1.2 FATAL_ERROR)
 
 set(PROJECT_NAME battle_city)
 project(${PROJECT_NAME})

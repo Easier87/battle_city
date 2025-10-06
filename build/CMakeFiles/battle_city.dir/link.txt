@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/battle_city.dir/src/main.cpp.o -o battle_city  external/glfw/src/libglfw3.a -framework OpenGL external/glad/libglad.a -framework Cocoa -framework IOKit -framework CoreFoundation -framework QuartzCore
