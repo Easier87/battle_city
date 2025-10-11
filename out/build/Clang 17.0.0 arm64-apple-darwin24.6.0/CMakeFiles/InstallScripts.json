@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/kolovrat/Desktop/code_projects/battle_city/out/build/Clang 17.0.0 arm64-apple-darwin24.6.0/cmake_install.cmake",
+		"/Users/kolovrat/Desktop/code_projects/battle_city/out/build/Clang 17.0.0 arm64-apple-darwin24.6.0/external/glfw/cmake_install.cmake",
+		"/Users/kolovrat/Desktop/code_projects/battle_city/out/build/Clang 17.0.0 arm64-apple-darwin24.6.0/external/glfw/src/cmake_install.cmake",
+		"/Users/kolovrat/Desktop/code_projects/battle_city/out/build/Clang 17.0.0 arm64-apple-darwin24.6.0/external/glfw/docs/cmake_install.cmake",
+		"/Users/kolovrat/Desktop/code_projects/battle_city/out/build/Clang 17.0.0 arm64-apple-darwin24.6.0/external/glad/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

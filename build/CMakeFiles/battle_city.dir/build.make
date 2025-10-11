@@ -76,30 +76,46 @@ CMakeFiles/battle_city.dir/src/main.cpp.o: CMakeFiles/battle_city.dir/flags.make
 CMakeFiles/battle_city.dir/src/main.cpp.o: /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp
 CMakeFiles/battle_city.dir/src/main.cpp.o: CMakeFiles/battle_city.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kolovrat/Desktop/code_projects/battle_city/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/battle_city.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/battle_city.dir/src/main.cpp.o -MF CMakeFiles/battle_city.dir/src/main.cpp.o.d -o CMakeFiles/battle_city.dir/src/main.cpp.o -c /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/battle_city.dir/src/main.cpp.o -MF CMakeFiles/battle_city.dir/src/main.cpp.o.d -o CMakeFiles/battle_city.dir/src/main.cpp.o -c /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp
 
 CMakeFiles/battle_city.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/battle_city.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp > CMakeFiles/battle_city.dir/src/main.cpp.i
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp > CMakeFiles/battle_city.dir/src/main.cpp.i
 
 CMakeFiles/battle_city.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battle_city.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp -o CMakeFiles/battle_city.dir/src/main.cpp.s
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kolovrat/Desktop/code_projects/battle_city/src/main.cpp -o CMakeFiles/battle_city.dir/src/main.cpp.s
+
+CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o: CMakeFiles/battle_city.dir/flags.make
+CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o: /Users/kolovrat/Desktop/code_projects/battle_city/src/Renderer/ShaderProgram.cpp
+CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o: CMakeFiles/battle_city.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/kolovrat/Desktop/code_projects/battle_city/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o -MF CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o.d -o CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o -c /Users/kolovrat/Desktop/code_projects/battle_city/src/Renderer/ShaderProgram.cpp
+
+CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.i"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/kolovrat/Desktop/code_projects/battle_city/src/Renderer/ShaderProgram.cpp > CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.i
+
+CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.s"
+	/usr/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/kolovrat/Desktop/code_projects/battle_city/src/Renderer/ShaderProgram.cpp -o CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.s
 
 # Object files for target battle_city
 battle_city_OBJECTS = \
-"CMakeFiles/battle_city.dir/src/main.cpp.o"
+"CMakeFiles/battle_city.dir/src/main.cpp.o" \
+"CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o"
 
 # External object files for target battle_city
 battle_city_EXTERNAL_OBJECTS =
 
 battle_city: CMakeFiles/battle_city.dir/src/main.cpp.o
+battle_city: CMakeFiles/battle_city.dir/src/Renderer/ShaderProgram.cpp.o
 battle_city: CMakeFiles/battle_city.dir/build.make
 battle_city: external/glfw/src/libglfw3.a
 battle_city: /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework
 battle_city: external/glad/libglad.a
 battle_city: CMakeFiles/battle_city.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kolovrat/Desktop/code_projects/battle_city/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable battle_city"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/kolovrat/Desktop/code_projects/battle_city/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable battle_city"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battle_city.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

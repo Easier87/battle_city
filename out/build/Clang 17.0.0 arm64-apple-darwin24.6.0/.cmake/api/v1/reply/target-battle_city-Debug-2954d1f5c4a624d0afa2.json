@@ -1,0 +1,204 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "battle_city"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"external/glfw/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 21,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 146,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 18,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -arch arm64"
+				}
+			],
+			"frameworks" : 
+			[
+				{
+					"backtrace" : 6,
+					"isSystem" : true,
+					"path" : "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/OpenGL.framework"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "/Users/kolovrat/Desktop/code_projects/battle_city/external/glfw/include"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/kolovrat/Desktop/code_projects/battle_city/external/glad/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "glfw::@ca12bac854c2ac6b2230"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "glad::@55512df44c152ef9a2ca"
+		}
+	],
+	"id" : "battle_city::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-search_paths_first -Wl,-headerpad_max_install_names",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "external/glfw/src/libglfw3.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-framework OpenGL",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "external/glad/libglad.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-framework IOKit",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-framework CoreFoundation",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-framework QuartzCore",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "battle_city",
+	"nameOnDisk" : "battle_city",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/Renderer/ShaderProgram.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/Renderer/ShaderProgram.h",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "EXECUTABLE"
+}

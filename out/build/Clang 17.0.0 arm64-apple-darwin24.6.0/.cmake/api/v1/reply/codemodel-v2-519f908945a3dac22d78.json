@@ -1,0 +1,191 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1.2"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "external/glfw",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw-Debug-6be917606c7ef0f924bf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "external/glfw",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "external/glfw/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-external.glfw.src-Debug-77df4950002c83495b46.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/src",
+					"targetIndexes" : 
+					[
+						2,
+						4
+					]
+				},
+				{
+					"build" : "external/glfw/docs",
+					"jsonFile" : "directory-external.glfw.docs-Debug-f0e895ac941a6ff9bbfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "external/glfw/docs"
+				},
+				{
+					"build" : "external/glad",
+					"jsonFile" : "directory-external.glad-Debug-37f0033dbad014580c42.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.1.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "external/glad",
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "battle_city",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "Glad",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "battle_city::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battle_city-Debug-2954d1f5c4a624d0afa2.json",
+					"name" : "battle_city",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "glad::@55512df44c152ef9a2ca",
+					"jsonFile" : "target-glad-Debug-a767e1575233cce12d5c.json",
+					"name" : "glad",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "glfw::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-glfw-Debug-fe9cfd9a41e85629e494.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "uninstall::@691b517da5fa0f694cd4",
+					"jsonFile" : "target-uninstall-Debug-6ffa29df97b76d5f2eab.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "update_mappings::@ca12bac854c2ac6b2230",
+					"jsonFile" : "target-update_mappings-Debug-0efa3665b254884e9e83.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/kolovrat/Desktop/code_projects/battle_city/out/build/Clang 17.0.0 arm64-apple-darwin24.6.0",
+		"source" : "/Users/kolovrat/Desktop/code_projects/battle_city"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}
